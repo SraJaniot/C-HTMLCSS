@@ -403,7 +403,7 @@ address {
 }
 
 pre {
-	background: #000;
+	background: #FFF;
 	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 15px;
 	font-size: 0.9375rem;
@@ -426,7 +426,7 @@ abbr, acronym {
 }
 
 mark, ins {
-	background: #000;
+	background: #FFF;
 	text-decoration: none;
 }
 
