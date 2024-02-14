@@ -857,7 +857,7 @@ ul > li {
 	/*font-family: "Raleway", sans-serif;*/
 	font-weight: bold;
 	text-transform: uppercase;
-	/*color: #000;*/
+	color: #FFF;
 }
 
 /*=========Popular courses  && Course Listing Page Css======*/
@@ -975,7 +975,7 @@ ul > li {
 	position: absolute;
 	left: 5%;
 	top: 44%;
-	/*background: #009450;*/
+	background: #A91FDB;
 	padding: 0.9375em 3.5625em 1em 3.5625em;
 	/*font-size: 1.8rem;*/
 	/*font-family: "Raleway", sans-serif;*/
@@ -1158,7 +1158,7 @@ ul > li {
 /*======Why Us section==========*/
 
 .whyUs-section {
-	background: #2e3192;
+	background: #330066;
 	/*color: #fff;*/
 }
 
@@ -1323,7 +1323,7 @@ ul > li {
 /*========What other say section ============*/
 
 .what-other-say {
-	background: #323e54;
+	background: #000;
 }
 
 .what-other-say .container {
@@ -2439,7 +2439,7 @@ aside .news-letter hr {
 
 #course-page .course-detail h2 {
 	/*font-size: 3rem;*/
-	/*color: #000;*/
+	color: #FFF;
 	text-transform: uppercase;
 }
 
@@ -3461,12 +3461,13 @@ RESPONSIVE STYLESHEET
 
 .article-subtitle{
 	font-size: 3rem;
-	color: #12a84e;
+	color: #FFF;
+	text-transform: uppercase;
 }
 
 .what-other-say .container .head {
 	font-size: 3.5rem;
-	color: #fff;
+	color: #9900FF;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -3477,7 +3478,7 @@ RESPONSIVE STYLESHEET
 .what-other-say .container .head::after {
 	position: absolute;
 	content: '';
-	border: 2.5px solid #12a84e;
+	border: 2.5px solid #9999CC;
 	width: 90px;
 	left: 46%;
 	bottom: 0;
@@ -3493,7 +3494,7 @@ RESPONSIVE STYLESHEET
 }
 
 .what-other-say .container .customer-item .border {
-	border: 1px solid #fff;
+
 	padding: 34px 65px 45px 65px;
 }
 
@@ -3541,5 +3542,5 @@ RESPONSIVE STYLESHEET
 
 .what-other-say .owl-carousel .owl-nav button.owl-prev:hover,
 .what-other-say .owl-nav button.owl-next:hover {
-	background: #12a84e;
+	background: #9999CC;
 }
