@@ -92,7 +92,7 @@ hr {
  */
 
 pre {
-	font-family: monospace, monospace; /* 1 */
+	font-family: 'Afacad'; /* 1 */
 	font-size: 1em; /* 2 */
 }
 
@@ -181,7 +181,7 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit; /* 1 */
+	font-family: 'Afacad', sans-serif; /* 1 */
 	font-size: 100%; /* 1 */
 	line-height: 1.15; /* 1 */
 	margin: 0; /* 2 */
@@ -377,7 +377,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family:'Afacad';
 	line-height: 1.5;
 }
 
@@ -404,7 +404,7 @@ address {
 
 pre {
 	background: #FFF;
-	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-family: 'Afacad';
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -415,7 +415,7 @@ pre {
 }
 
 code, kbd, tt, var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-family: 'Afacad';
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -631,7 +631,7 @@ a:hover, a:active {
 .top-header a {
 	/*text-decoration: none;*/
 	/*color: #fff;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: 'Afacad';*/
 }
 
 .top-header .container {
@@ -698,7 +698,7 @@ a:hover, a:active {
 
 .nav-desktop li, .nav-desktop li a{
 	font-size: 1.8rem;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Afacad';
 	font-weight: 600;
 	color: #3a3a3a;
 }
@@ -798,7 +798,7 @@ ul > li {
 	left: 9.8rem;
 	right: 9.8rem;
 	text-align: center;
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family:'Afacad';
 	/*color: #fff;*/
 	z-index: 9;
 }
@@ -854,7 +854,7 @@ ul > li {
 
 .page-heading .container h2 {
 	/*font-size: 3rem;*/
-	/*font-family: "Raleway", sans-serif;*/
+	font-family: 'Afacad';
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #FFF;
@@ -905,7 +905,7 @@ ul > li {
 .gallery-section .button-group button,
 .gallery-section2 .button-group button{
 	/*font-size: 1.4rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: 'Afacad';*/
 	/*color: #000;*/
 	background: transparent;
 	border: none;
@@ -978,8 +978,7 @@ ul > li {
 	background: #A91FDB;
 	padding: 0.9375em 3.5625em 1em 3.5625em;
 	/*font-size: 1.8rem;*/
-	/*font-family: "Raleway", sans-serif;*/
-	/*color: #fff;*/
+	font-family: "Afacad";
 	/*text-decoration: none;*/
 }
 
@@ -1000,7 +999,7 @@ ul > li {
 .course-listing-page .grid-item .box-body p,
 .recent-course-single .grid-item .box-body p {
 	/*font-size: 1.4rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #5c5c5c;*/
 }
 
@@ -1012,7 +1011,7 @@ ul > li {
 }
 
 .learn-courses .box-body section p {
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 }
 
 .learn-courses .box-body p span , 
@@ -1181,7 +1180,7 @@ ul > li {
 
 .featured-points li {
 	/*font-size: 1.8rem;*/
-	/*font-family: 'Raleway', sans-serif;	*/
+	/*font-family: "Afacad";	*/
 	line-height: 2.222em;
 	text-transform: uppercase;
 	margin-bottom: 2.2223em;
@@ -1201,7 +1200,7 @@ ul > li {
 
 .whyus-wrap h1 {
 	/*font-size: 3rem;*/
-	/*font-family: "Raleway", sans-serif;*/
+	font-family: "Afacad";
 	font-weight: bold;
 	text-transform: uppercase;
 	position: relative;
@@ -1221,7 +1220,7 @@ ul > li {
 
 .whyus-wrap p {
 	/*font-size: 1.6rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	margin-bottom: 2.8125em;
 }
 
@@ -1229,7 +1228,7 @@ ul > li {
 	text-transform: uppercase;
 	/*text-decoration: none;*/
 	/*font-size: 1.8rem;*/
-	/*font-family: "Raleway", sans-serif;*/
+	font-family: "Afacad";
 	/*color: #fff;*/
 	padding: 0.7em 1.6667em 0.94em 1.6667em;
 	border: 1px solid #fff;
@@ -1308,13 +1307,13 @@ ul > li {
 
 .details h3 {
 	/*font-size: 1.8rem;*/
-	/*font-family: 'Raleway:500', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #1c3961;*/
 }
 
 .details p {
 	/*font-size: 1.4rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #585858;*/
 	/*margin-top: 1.7857em;*/
 	margin-top: 1.4285em;
@@ -1347,7 +1346,7 @@ ul > li {
 
 .wrap-others-say h1 {
 	/*font-size: 3rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: "Afacad";*/
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -1382,19 +1381,19 @@ ul > li {
 
 .news-detail h1 {
 	/*font-size: 1.8rem;*/
-	/*font-family: 'Raleway:500', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #1c3961;*/
 }
 
 .news-detail h2 {
 	/*font-size: 1.4rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #585858;*/
 }
 
 .news-detail p {
 	/*font-size: 1.4rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #585858;*/
 	margin-top: 1.71428em;
 }
@@ -1410,7 +1409,7 @@ ul > li {
 
 .query-section .container p {
 	/*font-size: 2.4rem;*/
-	/*font-family: 'Raleway:600', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #000;*/
 }
 
@@ -1441,7 +1440,7 @@ ul > li {
 
 .footer-first-section .box-wrap header h1 {
 	/*font-size: 1.8rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	font-weight: bold;
 	text-transform: capitalize;
 }
@@ -1456,7 +1455,7 @@ ul > li {
 
 .footer-first-section .box-wrap p {
 	/*font-size: 1.4rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	margin-bottom: 1.857em;
 }
 
@@ -1498,7 +1497,7 @@ ul > li {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	border-bottom: 1px solid #fff;
 	margin-bottom: 1.25em;
 }
@@ -1669,14 +1668,14 @@ ul > li {
 
 .grid-box-wrap .grid-body h4{
 	/*font-size: 1.4rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #5c5c5c;*/
 	font-weight: normal;
 }
 
 .grid-box-wrap .grid-body h1 {
 	/*font-size: 2rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #000;*/
 	margin-top: 0.9em;
 	margin-bottom: 1.15em;
@@ -1684,7 +1683,7 @@ ul > li {
 
 .grid-box-wrap .grid-body p {
 	/*font-size: 1.6rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #5c5c5c;*/
 }	
 
@@ -1693,7 +1692,7 @@ ul > li {
 	display: block;
 	text-transform: uppercase;
 	/*font-size: 1.6rem;*/
-	/*font-family: 'Raleway',sans-serif;*/
+	font-family: "Afacad";
 	/*color: #2b74b8;*/
 	margin-top: 1.875em;
 	margin-bottom: 0.6875em;
@@ -1704,7 +1703,7 @@ ul > li {
 .page-content .container aside, .testimonial-page .container aside {
 	float: left;
 	width: 31.624%;
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 }
 
 .page-content .container aside .news-letter,
@@ -1888,7 +1887,7 @@ aside .news-letter hr {
 
 .navigation.pagination .page-numbers{
 	/*font-size: 2rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	/*color: #5c5c5c;*/
 	line-height: 15px;
 	display: inline-block;
@@ -1920,7 +1919,7 @@ aside .news-letter hr {
 ========================*/
 
 .page-content .page-article {
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 	width: 65.812%;
 	border-bottom: 1px solid #d0d0d0;
 	padding-bottom: 1em;
@@ -1990,7 +1989,7 @@ aside .news-letter hr {
 /*====Comment Section=============*/
 
 .comment-section {
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 }
 
 .comments-area ol{
@@ -2103,7 +2102,7 @@ aside .news-letter hr {
 
 .comment-form {
 	width: 48.718%;
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: "Afacad";*/
 }
 
 .comment-form h2 {
@@ -2165,7 +2164,7 @@ aside .news-letter hr {
 	display: inline-block;
 	/*text-decoration: none;*/
 	/*font-size: 1.8rem;*/
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: "Afacad";*/
 	padding: 0.8889em 2em;
 	/*background: #1c3961;*/
 	/*color: #fff;*/
@@ -2183,7 +2182,7 @@ aside .news-letter hr {
 ========================*/
 
 .contact-page-section {
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: "Afacad";*/
 }
 
 .contact-page-section .container {
@@ -2307,7 +2306,7 @@ aside .news-letter hr {
 ========================*/
 
 .about-upper-section {
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: '"Afacad";*/
 }
 
 .about-upper-section .container{
@@ -2365,7 +2364,7 @@ aside .news-letter hr {
 
 .team-members .container {
 	text-align: center;
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: "Afacad";*/
 	padding-top: 3.75em;
 	padding-bottom: 8.125em;
 }
@@ -2424,7 +2423,7 @@ aside .news-letter hr {
 ==============================*/
 
 #course-page {
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: "Afacad";*/
 }
 
 #course-page .container {
@@ -2483,7 +2482,7 @@ aside .news-letter hr {
 	border: none;
 	text-transform: capitalize;
 	margin-top: 1em;
-	/*font-family: 'Raleway', sans-serif;	*/
+	/*font-family: "Afacad";	*/
 	cursor: pointer;
 }
 
@@ -2619,7 +2618,7 @@ aside .reserve-course input[type="email"],
 	text-transform: uppercase;
 	margin-bottom: 1.6em;
 	font-weight: 600;
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Afacad";
 }
 
 /*==================================
@@ -2658,7 +2657,7 @@ aside .reserve-course input[type="email"],
 
 .customer-review .row .rewiew-content {
 	width: 74.026%;
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: "Afacad";*/
 }
 
 .row .rewiew-content p {
@@ -2901,7 +2900,7 @@ RESPONSIVE STYLESHEET
 
 	.nav-desktop li, .nav-desktop li a {
 		font-size: 1.4rem;
-		font-family: 
+		font-family: "Afacad"; 
 	}
 
 	.nav-desktop ul ul {
@@ -3469,7 +3468,7 @@ RESPONSIVE STYLESHEET
 	font-size: 3.5rem;
 	color: #9900FF;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Afacad";
 	font-weight: 700;
 	line-height: 1.9em;
 	position: relative;
