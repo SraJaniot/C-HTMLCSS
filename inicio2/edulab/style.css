@@ -181,7 +181,7 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: 'Afacad', sans-serif; /* 1 */
+	font-family: 'Afacad'; /* 1 */
 	font-size: 100%; /* 1 */
 	line-height: 1.15; /* 1 */
 	margin: 0; /* 2 */
@@ -631,7 +631,7 @@ a:hover, a:active {
 .top-header a {
 	/*text-decoration: none;*/
 	/*color: #fff;*/
-	/*font-family: 'Afacad';*/
+	font-family: 'Afacad';
 }
 
 .top-header .container {
@@ -905,7 +905,7 @@ ul > li {
 .gallery-section .button-group button,
 .gallery-section2 .button-group button{
 	/*font-size: 1.4rem;*/
-	/*font-family: 'Afacad';*/
+	font-family: 'Afacad';
 	/*color: #000;*/
 	background: transparent;
 	border: none;
@@ -1180,7 +1180,7 @@ ul > li {
 
 .featured-points li {
 	/*font-size: 1.8rem;*/
-	/*font-family: "Afacad";	*/
+	font-family: "Afacad";
 	line-height: 2.222em;
 	text-transform: uppercase;
 	margin-bottom: 2.2223em;
@@ -1346,7 +1346,7 @@ ul > li {
 
 .wrap-others-say h1 {
 	/*font-size: 3rem;*/
-	/*font-family: "Afacad";*/
+	font-family: "Afacad";
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -2102,7 +2102,7 @@ aside .news-letter hr {
 
 .comment-form {
 	width: 48.718%;
-	/*font-family: "Afacad";*/
+	font-family: "Afacad";
 }
 
 .comment-form h2 {
@@ -2164,7 +2164,7 @@ aside .news-letter hr {
 	display: inline-block;
 	/*text-decoration: none;*/
 	/*font-size: 1.8rem;*/
-	/*font-family: "Afacad";*/
+	font-family: "Afacad";
 	padding: 0.8889em 2em;
 	/*background: #1c3961;*/
 	/*color: #fff;*/
@@ -2182,7 +2182,7 @@ aside .news-letter hr {
 ========================*/
 
 .contact-page-section {
-	/*font-family: "Afacad";*/
+	font-family: "Afacad";
 }
 
 .contact-page-section .container {
@@ -2306,7 +2306,7 @@ aside .news-letter hr {
 ========================*/
 
 .about-upper-section {
-	/*font-family: '"Afacad";*/
+	font-family: "Afacad";
 }
 
 .about-upper-section .container{
@@ -2364,7 +2364,7 @@ aside .news-letter hr {
 
 .team-members .container {
 	text-align: center;
-	/*font-family: "Afacad";*/
+	font-family: "Afacad";
 	padding-top: 3.75em;
 	padding-bottom: 8.125em;
 }
@@ -2423,7 +2423,7 @@ aside .news-letter hr {
 ==============================*/
 
 #course-page {
-	/*font-family: "Afacad";*/
+	font-family: "Afacad";
 }
 
 #course-page .container {
@@ -2482,7 +2482,7 @@ aside .news-letter hr {
 	border: none;
 	text-transform: capitalize;
 	margin-top: 1em;
-	/*font-family: "Afacad";	*/
+	font-family: "Afacad";
 	cursor: pointer;
 }
 
@@ -2657,7 +2657,7 @@ aside .reserve-course input[type="email"],
 
 .customer-review .row .rewiew-content {
 	width: 74.026%;
-	/*font-family: "Afacad";*/
+	font-family: "Afacad";
 }
 
 .row .rewiew-content p {
