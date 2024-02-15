@@ -390,6 +390,10 @@ p {
 	margin: 0;
 }
 
+#copyright{
+	font-family: 'Afacad';
+}
+
 dfn, cite, em, i {
 	font-style: italic;
 }
@@ -821,6 +825,9 @@ ul > li {
 	display: flex;
 	justify-content: space-between;
 }
+.banner img {
+    opacity: 0.45;
+}
 
 .banner .owl-nav .owl-prev, .banner .owl-nav .owl-next{
 	/*font-size: 4rem;*/
@@ -852,12 +859,16 @@ ul > li {
 	padding-bottom: 4.375em;
 }
 
-.page-heading .container h2 {
+.page-heading .container h2{
 	/*font-size: 3rem;*/
 	font-family: 'Afacad';
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #FFF;
+}
+.page-heading .container h3 {
+	font-size: 1.8rem;
+	color: #FF9933;
 }
 
 /*=========Popular courses  && Course Listing Page Css======*/
@@ -975,7 +986,7 @@ ul > li {
 	position: absolute;
 	left: 5%;
 	top: 44%;
-	background: #A91FDB;
+	background: #FF9933;
 	padding: 0.9375em 3.5625em 1em 3.5625em;
 	/*font-size: 1.8rem;*/
 	font-family: "Afacad";
@@ -1590,11 +1601,13 @@ ul > li {
 	padding-top: 2.1875em;
 	padding-bottom: 2.4375em;
 	text-align: center;
+	font-family: 'Afacad';
 }
 
 .footer-last-section .container p span {
 	padding-right: 1em;
 	padding-left: 1em;
+	font-family: 'Afacad';
 }
 
 /*===================================
@@ -2628,7 +2641,7 @@ aside .reserve-course input[type="email"],
 .testimonial-page .container {
 	padding-top: 5em;
 	padding-bottom: 6.25em;
-	/*font-size: 'Raleway', sans-serif;*/
+	/*font-size: 'Afacad';*/
 }
 
 .testimonial-page .customer-review {
@@ -3233,6 +3246,7 @@ RESPONSIVE STYLESHEET
 
 	.page-footer .footer-last-section {
 		margin-top: 20px;
+		
 	}
 
 	/*===================================
