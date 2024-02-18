@@ -1,0 +1,280 @@
+
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+  font-family: 'Elgista';
+  src:  url('https://files.jcink.net/uploads2/mago/Elgista.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+padding: 20px;
+  background: var(--backgroundimg);
+  background-color: var(--background);
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode:multiply;
+  --backgroundimg: url(https://img.nickpic.host/lkOMcQ.jpg);
+  background: #000;
+  --background2: #fff;
+  --background3: #330066;
+  --accentfont: 'Elgista';
+  font-family: 'Afacad';
+  --accent: #000;
+  --text1: #fff;
+  --text2: #000;
+  --text3: #fff;
+  --text4: #fff;
+  --border1: #fff;
+}
+
+* {box-sizing:border-box;}
+
+a {
+  text-decoration: none;
+  color: var(--text1);
+  transition: 0.5s ease-in-out;
+}
+
+a:hover {
+  color: var(--accent);
+  transition: 0.5s ease-in-out;
+}
+
+.profile-wrap {
+  min-width: 950px;
+  max-width: 1250px;
+  margin: 50px auto;
+  background: var(--background);
+  min-height: 200px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.1fr;
+  grid-template-rows: 200px 150px 1fr 2fr 0.5fr;
+  position: relative;
+}
+
+.profile-bg {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin: 0;
+}
+
+.profile-bg img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;  
+}
+/* PERFIL AVATAR */
+
+.profile-avatar {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  box-sizing: content-box;
+  padding: 5px;
+  border: 2px solid var(--border1);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 120px;
+  top: -80px;
+}
+
+/*.profile-avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}*/
+.profile-avatar, .icon-container {
+  width: 150px; /* Ajusta el tamaño según sea necesario */
+  height: 150px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex; /* Habilita flexbox */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
+.profile-avatar label img {
+  width: 50px;
+  height: 50px;
+  /* Agrega aquí más estilos según sea necesario */
+}
+
+.icon {
+  border-radius: 15%; /* Esto hace que la imagen sea redonda */
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: 50px; /* Ajusta el tamaño según sea necesario */
+  object-fit: cover; /* Esto asegura que la imagen cubra completamente el círculo */
+}
+
+.profile-name {
+  grid-column: 1 / 2;
+  grid-row: 2 / -1;
+  background: var(--background);
+  border-right: 2px solid var(--border1);
+  padding: 40px;
+  display: flex;
+  writing-mode: vertical-lr;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.profile-name a {
+  font: 700 80px var(--accentfont);
+  white-space: pre;
+  color: var(--border1);
+  text-transform: uppercase;
+  transform: rotate(180deg);
+  letter-spacing: 10px;
+  text-align: justify;
+}
+
+.profile-fields {
+  grid-column: 2 / 5;
+  grid-row: 2 / ;
+  background: var(--background3);
+  margin: 0;
+  padding: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  
+}
+
+.profile-fields span {
+  font: 400 14px var(--font1);
+  position: relative;
+  z-index: 2;
+  color: var(--text1);
+}
+
+.profile-fields span div {
+  display: block;
+  text-transform: uppercase;
+  font: 400 18px var(--font1);
+  color: var(--text1);
+  border-bottom: 2px solid var(--border1);
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.profile-freeform {
+  grid-column: 2 / 3;
+  grid-row: 3 / 5;
+  background: var(--background2);
+  border-radius: 0px 0px 10px 0px;
+  padding: 60px;
+}
+
+.freeform-warn {
+  width: 50%;
+
+  margin: 20px auto 50px auto;
+  background: var(--background);
+  font: 400 14px var(--font1);
+  border-radius: 10px;
+  color: var(--text2);
+}
+
+.freeform-warn b {
+  font: 400 20px var(--accentfont);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text1);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 5px;
+}
+
+.freeform-content {
+  text-align: justify;
+  font: 400 14px var(--font1);
+  line-height: 150%;
+  padding: 20px;
+  background: #fff;
+  font-family: 'Afacad';
+}
+
+.freeform-content:first-letter {
+  font: 700 50px var(--accentfont);
+  float: left;
+  color: var(--accent);
+  margin-right: 10px;
+}
+
+.freeform-content b {
+  color: var(--accent);
+  background: var(--background);
+  padding: 2px;
+  line-height: 170%;
+}
+
+.profile-links {
+  grid-column: 3 / 4;
+  grid-row: 3 / 5;
+  padding: 15px 10px;
+  writing-mode: vertical-rl;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-links a {
+  font: 700 14px var(--accentfont);
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-decoration-color: var(--border1);
+  text-underline-offset: 5px;
+}
+
+.profile-player {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.profile-player span {
+  font: 600 12px var(--font1);
+  color: var(--text1);
+  text-transform: uppercase;
+}
+
+.profile-player span b {
+  color: var(--accent);
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-color: var(--border1);
+  text-underline-offset: 5px;
+}
+
+.profile-player span div {
+  font: 500 16px var(--accentfont);
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  color: var(--text2);
+}

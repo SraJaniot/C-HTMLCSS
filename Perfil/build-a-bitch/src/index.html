@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="https://use.typekit.net/phs8jtz.css">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+<div class="profile-wrap">
+  <div class="profile-bg">
+    <img src="https://i.postimg.cc/5yDfk1KN/nojao1.png">
+    </div>
+  
+    <div class="profile-avatar">
+      <input type="file" id="avatar" name="avatar" style="display: none;">
+      <label for="avatar" class="icon-container">
+        <img src="https://i.postimg.cc/HxpXN1Jd/upload2.png" alt="Subir archivo" class="icon">
+      </label>
+    </div>
+    <img id="preview" src="" alt="Vista previa de la imagen" class="profile-avatar" style="display: none;">
+  
+  <div class="profile-name">
+    <a href="?">Señor Janiot</a>
+  </div>
+  
+  <div class="profile-fields">
+    
+    <span><div>Nombre</div>Estebandido</span>
+    <span><div>Edad</div>24 años</span>
+    <span><div>Elo</div>Platinoob</span>
+    <span><div>Equipo</div>Mancos development</span>
+    <span><div>Le gusta lolsito?</div>Está obligado</span>
+    <span><div>Línea</div>Jungla (para que lo culpen luego)</span>
+    <span><div>Sexo</div>Hombre</span>
+    
+  </div>
+  
+  <div class="profile-freeform">
+    
+    <div class="freeform-warn" align="center"> <h1> Sobre mi </h1></div>
+    
+    <div class="freeform-content">
+    Pura palabrería acá no más para ver como puedo cambiar solamente la letra que necesito cambiar porque no necesito cambiar otra cosa Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quae, id incidunt blanditiis voluptatum dignissimos corporis odio, iste repudiandae velit laboriosam. Debitis quae rem cum odio corporis dolore qui ipsum!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur molestiae praesentium nulla odit deleniti id? Dignissimos mollitia dolorum ipsa minima facilis nesciunt velit sint architecto deserunt, placeat ipsam cum optio!
+
+    Pura palabrería acá no más para ver como puedo cambiar solamente la letra que necesito cambiar porque no necesito cambiar otra cosa Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quae, id incidunt blanditiis voluptatum dignissimos corporis odio, iste repudiandae velit laboriosam. Debitis quae rem cum odio corporis dolore qui ipsum!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur molestiae praesentium nulla odit deleniti id? Dignissimos mollitia dolorum ipsa minima facilis nesciunt velit sint architecto deserunt, placeat ipsam cum optio!
+    </div>
+  </div>
+  
+  <!--<div class="profile-links">
+    <a href="?">dossier</a>
+    <a href="?">view all 420 posts</a>
+    <a href="?">view topics</a>
+    <a href="?">directory</a>
+    <a href="?">message</a>
+  </div>-->
+  
+  <!--<div class="profile-player">
+    <span>played by martin</span>
+    <span>he/him</span>
+    <span>27 years old</span>
+    <span>central timezone</span>
+    <span><div>hover for trigger warnings</div></span>
+  </div>-->
+  <!--END PROFILE-->
+</div>
+
+<script> 
+document.getElementById('avatar').addEventListener('change', function(e) {
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    var preview = document.getElementById('preview');
+    preview.src = e.target.result;
+    preview.style.display = 'block'; // Muestra la imagen
+  };
+  reader.readAsDataURL(this.files[0]);
+});
+</script>

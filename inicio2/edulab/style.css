@@ -53,6 +53,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+ @font-face {
+    font-family: 'Afacad';
+    src: url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+}
 
 html {
 	font-size: 62.5%;
@@ -1125,7 +1130,7 @@ ul > li {
   }
 }
 
-//arrows on first carousel
+/*/arrows on first carousel/*/
 #sync1.owl-theme {
   position: relative;
   .owl-next, .owl-prev {
