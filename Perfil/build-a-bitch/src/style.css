@@ -24,7 +24,10 @@ padding: 20px;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode:multiply;
+
   --backgroundimg: url(https://img.nickpic.host/lkOMcQ.jpg);
+  
+
   background: #000;
   --background2: #fff;
   --background3: #330066;
