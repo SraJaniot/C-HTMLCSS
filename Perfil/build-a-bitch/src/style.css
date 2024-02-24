@@ -114,10 +114,22 @@ a:hover {
   justify-content: center; /* Centra el contenido horizontalmente */
   align-items: center; /* Centra el contenido verticalmente */
 }
+.profile-avatar, .icon-container {
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: 100px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative; /* Habilita el posicionamiento absoluto para los hijos */
+}
+
+
 
 .profile-avatar label img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  position: absolute; /* Posiciona el ícono de manera absoluta dentro del contenedor */
+  bottom: 0; /* Alinea el ícono con la parte inferior del contenedor */
+  right: 0; /* Alinea el ícono con la parte derecha del contenedor */
   /* Agrega aquí más estilos según sea necesario */
 }
 
