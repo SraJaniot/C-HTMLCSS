@@ -1,5 +1,5 @@
 
- @font-face {
+@font-face {
     font-family: 'Afacad';
     src: url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
 
@@ -732,7 +732,9 @@ RESPONSIVE STYLESHEET
 	padding: 0 36px;
 	perspective: 2500px;
 	margin: 0 50px;
+	
   }
+
   
   .cover-image {
 	width: 100%;

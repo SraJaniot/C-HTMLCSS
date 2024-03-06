@@ -34,7 +34,15 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100%; /* Ajusta esto según tus necesidades */
+	border-radius: 50%;
+	overflow: hidden;
+	width: 125px;
+	height: 125px;
+	margin: auto;
+  }
+  
+  .equipo img {
+	object-fit: cover;
   }
 
 .container {
