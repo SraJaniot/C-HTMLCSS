@@ -1,0 +1,166 @@
+
+  <meta charset="UTF-8">
+  <title>Resultados de búsqueda</title>
+  <link rel="stylesheet" href="./style.css">
+
+
+<div class="contenido-general">
+	<h1><span class="blue"></span>Resultados de búsqueda<span class="blue"></span></h1>
+
+<table class="container">
+	<thead>
+		<tr>
+			<th><h1>Nombres y Apellidos</h1></th>
+			<th><h1>Tipo de Documento</h1></th>
+			<th><h1>Número de Documento</h1></th>
+			<th><h1>Evento</h1></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Esteban Janiot</td>
+			<td>C.C.</td>
+			<td>1098825375</td>
+			<td>FrikiFest</td>
+		</tr>
+		<tr>
+			<td>Vanessa Sanabria</td>
+			<td>C.C.</td>
+			<td>1098816187</td>
+			<td>FrikiFest</td>
+		</tr>
+		<tr>
+			<td>Carlos Perez</td>
+			<td>C.C.</td>
+			<td>5327458</td>
+			<td>FrikiFest</td>
+		</tr>
+    <tr>
+			<td>Diana Toscano</td>
+			<td>C.E.</td>
+			<td>2961234</td>
+			<td>Fortnimoon</td>
+		</tr>
+    <tr>
+			<td>Ivan Chaparro</td>
+			<td>T.I.</td>
+			<td>41356789</td>
+			<td>Legend of friki</td>
+		</tr>
+    <tr>
+			<td>Pepito Perez</td>
+			<td>C.E.</td>
+			<td>34868796</td>
+			<td>League of ... LOL?</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!-- partial:index.partial.html -->
+<style>
+	/*	
+	Table Responsive
+	===================
+	Author: https://github.com/pablorgarcia
+ */
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Afacad:300,400,700);
+
+body {
+  font-family: 'Afacad';
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#ccc;
+  background-color:#131313;
+}
+
+h1 {
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #9900FF;
+}
+
+a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FF9933;
+  text-decoration: none;
+}
+
+
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #9999CC ;
+}
+
+.container td {
+	  font-weight: normal;
+	  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.container td, .container th {
+	  padding-bottom: 2%;
+	  padding-top: 2%;
+  padding-left:2%;  
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #660099;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #990066;
+}
+
+.container th {
+	  background-color: #171717;
+}
+
+.container td:first-child { color: #FF9933 ; }
+
+.container tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+	        box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.container td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}
+</style>
+<!-- partial -->
