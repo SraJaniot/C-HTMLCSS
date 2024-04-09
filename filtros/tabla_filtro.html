@@ -5,57 +5,40 @@
 
 
 <div class="contenido-general">
-	<h1><span class="blue"></span>Resultados de búsqueda<span class="blue"></span></h1>
+    <h1><span class="blue"></span>Resultados de búsqueda<span class="blue"></span></h1>
 
-<table class="container">
-	<thead>
-		<tr>
-			<th><h1>Nombres y Apellidos</h1></th>
-			<th><h1>Tipo de Documento</h1></th>
-			<th><h1>Número de Documento</h1></th>
-			<th><h1>Evento</h1></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Esteban Janiot</td>
-			<td>C.C.</td>
-			<td>1098825375</td>
-			<td>FrikiFest</td>
-		</tr>
-		<tr>
-			<td>Vanessa Sanabria</td>
-			<td>C.C.</td>
-			<td>1098816187</td>
-			<td>FrikiFest</td>
-		</tr>
-		<tr>
-			<td>Carlos Perez</td>
-			<td>C.C.</td>
-			<td>5327458</td>
-			<td>FrikiFest</td>
-		</tr>
-    <tr>
-			<td>Diana Toscano</td>
-			<td>C.E.</td>
-			<td>2961234</td>
-			<td>Fortnimoon</td>
-		</tr>
-    <tr>
-			<td>Ivan Chaparro</td>
-			<td>T.I.</td>
-			<td>41356789</td>
-			<td>Legend of friki</td>
-		</tr>
-    <tr>
-			<td>Pepito Perez</td>
-			<td>C.E.</td>
-			<td>34868796</td>
-			<td>League of ... LOL?</td>
-		</tr>
-	</tbody>
-</table>
+    <table class="container">
+        <!-- Encabezado y cuerpo de la tabla -->
+		<thead>
+			<tr>
+				<th><h1>Nombres y Apellidos</h1></th>
+				<th><h1>Edad </h1></th>
+				<th><h1>Correo</h1></th>
+				<th><h1>Tipo de Documento</h1></th>
+				<th><h1>Número de Documento</h1></th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Esteban Janiot</td>
+				<td>24</td>
+				<td>estebanjaniot10@gmail.com</td>
+				<td>C.C.</td>
+				<td>1098825375</td>
+				
+			</tr>
+		
+		</tbody>
+	
+    </table>
+
+    <div class="botones">
+        <button class="aceptar">Aceptar</button>
+        <button class="rechazar">Rechazar</button>
+    </div>
 </div>
+
 <!-- partial:index.partial.html -->
 <style>
 	/*	
@@ -68,12 +51,13 @@
 @import url(https://fonts.googleapis.com/css?family=Afacad:300,400,700);
 
 body {
-  font-family: 'Afacad';
-  font-weight: 300;
-  line-height: 1.42em;
-  color:#ccc;
-  background-color:#131313;
+    min-height: 100vh;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+	background-color: #131313;
 }
+
 
 h1 {
   font-size:3em; 
@@ -81,6 +65,7 @@ h1 {
   line-height:1em;
   text-align: center;
   color: #9900FF;
+  font-family: 'Afacad';
 }
 
 a {
@@ -88,7 +73,50 @@ a {
   text-transform: uppercase;
   color: #FF9933;
   text-decoration: none;
+  font-family: 'Afacad';
 }
+
+.contenido-general {
+    padding-bottom: 2em; /* Ajusta según sea necesario */
+	font-family: 'Afacad';
+}
+
+.contenido-general {
+    padding-bottom: 1em; /* Ajusta según sea necesario */
+    margin-bottom: 0.0.5em; /* Nuevo margen inferior */
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em; /* Ajusta según sea necesario */
+}
+
+.aceptar {
+    background-color: #018601;
+    color: #cccccc;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 1em; /* Reducido el margen horizontal */
+	font-family: 'Afacad';
+}
+.rechazar {
+    background-color: #9b0000;
+    color: #cccccc;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 1em; /* Reducido el margen horizontal */
+	font-family: 'Afacad';
+}
+
 
 
 .container th h1 {
