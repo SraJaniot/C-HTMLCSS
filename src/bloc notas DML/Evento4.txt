@@ -1,4 +1,4 @@
-SELECT fun_insert_evento('Legend of... games?',
+SELECT fun_insert_evento('Legend of ... Games?',
 
 'Un evento fuera de nuestras leyes, ven a participar antes de que pierdas tu oportunidad',
 
@@ -8,11 +8,11 @@ TIMESTAMP '2024-11-22 20:29:59',
 
 'https://fotodetorneo.com',
 
-'Un bono por 500.000 PESOS de x tienda',
+'Un bono por 800.000 PESOS de x tienda',
 
-'Un bono de 200.000 PESOS de x tienda',
+'Un bono de 600.000 PESOS de x tienda',
 
-'Un fuerte aplauso por participar y un dulce',
+'Un paquete de dulces',
 
 'https://www.youtube.com/embed/WciwkBMaLHc?si=KM5zC2vZ0NVCb1uh',
 
@@ -26,6 +26,6 @@ TIMESTAMP '2024-11-22 20:29:59',
 'prueba',
 'prueba',
 'prueba',
-'1710361457552-fondoarcane.png',
-'1710361528165-textotorneo.png,
-'1710361495577-personajecarta3.png');
+'fondoPvsZ',
+'TextoPvsZ',
+'PersonajePvsZ');
