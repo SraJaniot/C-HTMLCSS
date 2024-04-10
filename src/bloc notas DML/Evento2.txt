@@ -1,0 +1,25 @@
+SELECT fun_insert_evento('Star Mash',
+
+'Acompañanos a uno de los mejores eventos friki de Bucaramanga, solo por hoy disfrutarás de grandes actividades y atracciones',
+
+TIMESTAMP '2024-10-12 09:59:59',
+
+TIMESTAMP '2024-10-12 19:59:59',
+
+'https://fotodetorneo.com',
+
+'Figura de Mario especial para cada uno',
+
+'Una cajita sorpresa de Mario para cada ganador',
+
+'Aplausos',
+
+'https://www.youtube.com/embed/OPxnBv57lbo?si=Bbg0Hn_NwzPgZYHH',
+
+100,
+
+100000,
+
+'Ven y disfruta de uno de los eventos más grandes en Bucaramanga, ¿estás preparado para participar? ¡Aprovecha ahora! \n\n Disfruta de nuestras Zonas:\n\n\t -Zona de juegos libres\n\t -Zona de comidas\n\t -Zona de Karaoke \n\t -Zona de descanso\n\t -Zona de Just Dance\n\n Disfruta como espectador de los famosos Actividades especiales:\n\t -Torneo de Super Smash Bros\n\t -Torneo de Mario Party\n\t -Torneo de League of Legends\n\t -Concurso Cosplay\n\t -Concurso Cospobre\n\t -Torneo de Ajedrez\n\t -Concurso Sorpresa\n\n Lugar del evento: Calle 89 Transversal Oriental Metropolitana-69\n\n Hora Inicio Evento: 10:00 am \n\n No esperes más y regístrate para participar como invitado del evento (si quieres participar en una actividad especial, selecciona a la que quieres participar más abajo de esta descripción y regístrate, ten en cuenta que solo podrás participar a solo una actividad especial, las zonas son libres de usar, las actividades especiales son 1 sola vez por evento)',
+
+'Reglas:\n-Respeta a los cosplayers (No aprobamos el acoso, ni el bullying).\n-Prohibida la entrada de bebidas alcohólicas o sustancias alucinógenas.\n-Prohibido Fumar (si deseas hacerlo, por favor fuera de las instalaciones)\n-Respeto ante cualquier persona (Aún si la persona no viene con un cosplay, debemos aprender a respetar a nuestro alrededor, así que si notamos o nos dan información que estás siendo indebido con los demás participantes del evento serás expulsado permanentemente).\n-Diviértete (Entendemos que algunas zonas estarán ocupadas más que otras, ¡pero no te estreses! Para todos los espacios tendrás tiempo para participar).\n-Conducta apropiada (Si vienes o no en cosplay, debemos respetar los límites unos a otros, no toleramos, ni aprobamos el sabotaje de cosplayers o de cualquier participante).\n- Mantén limpia las zonas (Toda basura o residuo que tengas, insertalo en la caneca de basura más cercana, para mejor experiencia y ambiente)\n- Todos los participantes del evento deben cumplir y seguir el reglamento generado, aquel que incumpla alguna de las anteriores reglas será expulsado permanentemente del evento.','prueba','prueba','prueba','1710196992525-fondo2.png','1709934041173-portada.png','1710197563786-personajeeditablept2.png');
