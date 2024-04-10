@@ -1,0 +1,34 @@
+SELECT fun_insert_torneo('No flash, no win',
+
+'¡Únete a nuestro emocionante torneo de League of Legends! ¡En esta dinámica única, desafiamos tus habilidades sin el uso de flash! Demuestra tu destreza y estrategia en un escenario donde la rapidez mental y la toma de decisiones son clave. ¡Prepárate para una experiencia de juego completamente nueva!',
+
+TIMESTAMP '2024-02-10 13:59:59',
+
+TIMESTAMP '2024-02-10 17:59:59',
+
+'https://fotodetorneo.com',
+
+'Una Skin para cada integrande de 1350 RP',
+
+'Una cofre Hextech',
+
+'Un fuerte aplauso',
+
+'https://videodeexplicacion.com',
+
+8,
+
+100000,
+
+1,
+
+'En nuestro torneo de League of Legends, te ofrecemos una dinámica diferente. Con solo 8 cupos disponibles por equipo, la competencia será intensa y emocionante. Para participar, cada equipo debe registrarse previamente y estar compuesto por 5 integrantes. Además, es imprescindible estar presentes y pendientes de las reglas y directrices que se proporcionarán antes del inicio del torneo. ¡Prepárate para una experiencia de juego única y emocionante que desafiará tus habilidades estratégicas y de trabajo en equipo!',
+
+'Reglas:\n\n\t -Estar presentes 10 minutos antes de la hora estipulada.\n\t -El uso de los campeones no deben llevar de habilidad ningún tipo de flash o dash sea como habilidad del personaje (ej: Ezreal, Kassadin, etc.) o habilidad secundaria.\n\t -Respetar a sus compañeros de equipo y contrincantes (no permitimos los sabotajes o las incitaciones al odio o violencia)\n\t -Aquel que no respete las normas debidamente será expulsado por completo del torneo.',
+'1709933949591-premio.jpg',
+'1709933949591-premio.jpg',
+'1709933949591-premio.jpg',
+'1710361457552-fondoarcane.png',
+'1710361528165-textotorneo.png',
+'1710361495577-personajecarta3.png',
+1);

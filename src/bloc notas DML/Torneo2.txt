@@ -1,0 +1,40 @@
+SELECT fun_insert_torneo('¿Quien es el mejor impostor?',
+'¡Participa en nuestro torneo de Among Us y demuestra tus habilidades como impostor! Únete a jugadores de todo el mundo en una competencia emocionante para descubrir quién es el mejor impostor. Prepárate para la intriga, la traición y la estrategia mientras te sumerges en este juego de engaños y paranoia. ¿Tienes lo necesario para salir victorioso y engañar a tus amigos? ¡Únete ahora y descúbrelo!',
+
+TIMESTAMP '2024-12-10 14:59:59',
+
+TIMESTAMP '2024-12-10 18:59:59',
+
+'https://fotodetorneo.com',
+
+'Un pase especial de Among Us de su elección',
+
+'Un traje o accesorio de Among Us de su elección',
+
+'Un llavero de Among us',
+
+'https://videodeexplicacion.com',
+
+8,
+
+100000,
+
+1,
+
+'¡Bienvenido al emocionante torneo de Among Us! Prepárate para sumergirte en un mundo de intriga y misterio, donde ocho individuos competirán por llevarse la corona del impostor. En este torneo exclusivo, la tensión estará en su punto máximo mientras los participantes se enfrentan en un juego de engaños y estrategia para descubrir quién tiene lo necesario para triunfar. ¡Únete a nosotros para una experiencia llena de diversión, suspenso y traición en el universo de Among Us!',
+
+'Reglas:\n\n\t -Estar presentes 10 minutos antes de la hora estipulada.\n\t -Evaluaremos el tiempo de aniquilación de personajes, el nivel de supervivencia y el tiempo de duración del juego\n\t -Respeto ante todo momento\n\t -Aquel que no respete las normas debidamente será expulsado por completo del torneo.',
+
+'1709933949591-premio.jpg',
+
+'1709933949591-premio.jpg',
+
+'1709933949591-premio.jpg',
+
+'1710363382328-fondoamongus.jpg.png',
+
+'1710361625679-textotorneocarta2.png',
+
+'1710361666653-personajeamongus.png',
+
+1);

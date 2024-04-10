@@ -1,0 +1,31 @@
+SELECT fun_insert_evento('Tombos vs Zombies',
+
+''Un evento fuera de nuestras leyes, ven a participar antes de que pierdas tu oportunidad',
+
+TIMESTAMP '2024-11-22 09:59:59',
+
+TIMESTAMP '2024-11-22 20:29:59',
+
+'https://fotodetorneo.com',
+
+'Un bono por 500.000 PESOS de x tienda',
+
+'Un bono de 200.000 PESOS de x tienda',
+
+'Un fuerte aplauso por participar y un dulce',
+
+'https://www.youtube.com/embed/WciwkBMaLHc?si=KM5zC2vZ0NVCb1uh',
+
+100,
+
+100000,
+
+'Ven y disfruta de uno de los eventos más grandes en Bucaramanga, ¿estás preparado para participar? ¡Aprovecha ahora!\n\n Disfruta de nuestras Zonas:\n\n\t -Zona de juegos libres\n\t -Zona de comidas\n\t -Zona de Karaoke\n\t -Zona de descanso\n\t -Zona de Just Dance\n\n Disfruta como espectador de los famosos Actividades especiales:\n\n\t-Concurso mejor Zombie y mejor tombo\n\t -Concurso: El mejor Zombielarín \n\t -Torneo Uno para todos League of Legends\n\t -Concurso Cosplay \n\t -Concurso Cospobre \n\t -Trivia de... ¿zombies? \n\t -Concurso Sorpresa\n\n Lugar del evento: Calle 89 Transversal Oriental Metropolitana-69 \n\n Hora Inicio Evento: 10:00 am \n\n No esperes más y regístrate para participar como invitado del evento (si quieres participar en una actividad especial, selecciona a la que quieres participar más abajo de esta descripción y regístrate, ten en cuenta que solo podrás participar a solo una actividad especial, las zonas son libres de usar, las actividades especiales son 1 sola vez por evento)',
+
+'Reglas:\n\n\t-Respeta a los cosplayers (No aprobamos el acoso, ni el bullying).\n\t -Prohibida la entrada de bebidas alcohólicas o sustancias alucinógenas.\n\t -Prohibido Fumar (si deseas hacerlo, por favor fuera de las instalaciones)\n\t -Respeto ante cualquier persona (Aún si la persona no viene con un cosplay, debemos aprender a respetar a nuestro alrededor, así que si notamos o nos dan información que estás siendo indebido con los demás participantes del evento serás expulsado permanentemente).\n\t -Diviértete (Entendemos que algunas zonas estarán ocupadas más que otras, ¡pero no te estreses! Para todos los espacios tendrás tiempo para participar).\n\t -Conducta apropiada (Si vienes o no en cosplay, debemos respetar los límites unos a otros, no toleramos, ni aprobamos el sabotaje de cosplayers o de cualquier participante).\n\t -Mantén limpia las zonas (Toda basura o residuo que tengas, insertalo en la caneca de basura más cercana, para mejor experiencia y ambiente)\n\t -Todos los participantes del evento deben cumplir y seguir el reglamento generado, aquel que incumpla alguna de las anteriores reglas será expulsado permanentemente del evento.',
+'prueba',
+'prueba',
+'prueba',
+'1710361457552-fondoarcane.png',
+'1710361528165-textotorneo.png,
+'1710361495577-personajecarta3.png');

@@ -1,0 +1,42 @@
+SELECT fun_insert_torneo('La papa bomba',
+
+'¡Prepárate para el desafío de Plantas vs Zombies! En este minijuego, tu objetivo es durar lo más posible o eliminar la mayor cantidad de Zombies.¡Demuestra tu habilidad y estrategia para convertirte en el campeón!',
+
+TIMESTAMP '2024-12-10 14:59:59',
+
+TIMESTAMP '2024-12-10 18:59:59',
+
+
+'https://fotodetorneo.com',
+
+'Un bono por 500.000 PESOS de x tienda',
+
+'Un bono de 200.000 PESOS de x tienda',
+
+'Un fuerte aplauso por participar y un dulce',
+
+'https://videodeexplicacion.com',
+
+6,
+
+100000,
+
+1,
+
+'¡Únete a nuestro emocionante torneo de Plantas vs Zombies! Con seis participantes compitiendo en un minijuego individual, la competencia será intensa. El objetivo es durar el mayor tiempo posible o eliminar la mayor cantidad de zombies. ¡El participante con el mayor récord se llevará la corona del ganador y el reconocimiento como el mejor estratega de Plantas vs Zombies!',
+
+'Reglas:\n\n\t -Estar presentes 10 minutos antes de la hora estipulada.\n\t -Evaluaremos la duración total del minijuego\n\t -Respeto ante todo momento\n\t -Aquel que no respete las normas debidamente será expulsado por completo del torneo.',
+
+'1709933949591-premio.jpg',
+
+'1709933949591-premio.jpg',
+
+'1709933949591-premio.jpg',
+
+'Fondo acá de PvsZ',
+
+'Texto PvsZ',
+
+'Personaje PvsZ',
+
+1);
